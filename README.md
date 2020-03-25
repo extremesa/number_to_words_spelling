@@ -9,6 +9,7 @@ example:
 123 => seratus dua puluh tiga
 
 # Supported Language:
+ - Arabic
  - Indonesia
  - English - US
 
@@ -22,6 +23,7 @@ import 'package:number_to_words_spelling/number_to_words_spelling.dart';
 String _wordEn = NumberWordsSpelling.toWord('123456','en_US');
 
 String _wordInd = NumberWordsSpelling.toWord('123456','id');
+String _wordAr = NumberWordsSpelling.toWord('12','ar');
 
 ## Getting Started
 
